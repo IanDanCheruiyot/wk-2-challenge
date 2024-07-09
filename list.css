@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #057a9e;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #b4e1e9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#itemInput {
+    width: 60%;
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+#addItemBtn, #clearListBtn, #markPurchasedBtn {
+    padding: 8px 15px;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li.purchased {
+    text-decoration: line-through;
+    background-color: #d9d9d9;
+}
